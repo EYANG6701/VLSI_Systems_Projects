@@ -1,0 +1,102 @@
+* File: Lab3_CAS.pex.netlist
+* Created: Tue Nov 11 10:29:02 2025
+* Program "Calibre xRC"
+* Version "v2022.4_37.20"
+* 
+.include "Lab3_CAS.pex.netlist.pex"
+.subckt Lab3_CAS  B Cin Cout M Qin Sum Gnd Vdd
+* 
+* Cout	Cout
+* Sum	Sum
+* Cin	Cin
+* B	B
+* Qin	Qin
+* M	M
+* Vdd	Vdd
+* Gnd	Gnd
+XMMn20 N_N_12_MMn20_d N_Qin_MMn20_g N_Gnd_MMn20_s N_Gnd_MMn20_b NMOS25 L=2.5e-07
++ W=1.5e-06 AD=9.75e-13 AS=9.75e-13 PD=4.3e-06 PS=4.3e-06
+XMMn19 N_N_11_MMn19_d N_M_MMn19_g N_Gnd_MMn19_s N_Gnd_MMn20_b NMOS25 L=2.5e-07
++ W=1.5e-06 AD=9.75e-13 AS=9.75e-13 PD=4.3e-06 PS=4.3e-06
+XMMn15 N_N_8_MMn15_d N_N_11_MMn15_g N_N_16_MMn15_s N_Gnd_MMn20_b NMOS25
++ L=2.5e-07 W=1.5e-06 AD=9.75e-13 AS=9.75e-13 PD=4.3e-06 PS=4.3e-06
+XMMn17 N_N_16_MMn17_d N_N_12_MMn17_g N_Gnd_MMn17_s N_Gnd_MMn20_b NMOS25
++ L=2.5e-07 W=1.5e-06 AD=9.75e-13 AS=9.75e-13 PD=4.3e-06 PS=4.3e-06
+XMMn16 N_N_16_MMn16_d N_M_MMn16_g N_Gnd_MMn16_s N_Gnd_MMn20_b NMOS25 L=2.5e-07
++ W=1.5e-06 AD=9.75e-13 AS=9.75e-13 PD=4.3e-06 PS=4.3e-06
+XMMn18 N_N_8_MMn18_d N_Qin_MMn18_g N_N_16_MMn18_s N_Gnd_MMn20_b NMOS25 L=2.5e-07
++ W=1.5e-06 AD=9.75e-13 AS=9.75e-13 PD=4.3e-06 PS=4.3e-06
+XMMn1 N_N_15_MMn1_d N_N_8_MMn1_g N_Gnd_MMn1_s N_Gnd_MMn20_b NMOS25 L=2.5e-07
++ W=1.5e-06 AD=9.75e-13 AS=9.75e-13 PD=4.3e-06 PS=4.3e-06
+XMMn2 N_N_15_MMn2_d N_B_MMn2_g N_Gnd_MMn2_s N_Gnd_MMn20_b NMOS25 L=2.5e-07
++ W=1.5e-06 AD=9.75e-13 AS=9.75e-13 PD=4.3e-06 PS=4.3e-06
+XMMn12 N_N_10_MMn12_d N_Cin_MMn12_g N_N_15_MMn12_s N_Gnd_MMn20_b NMOS25
++ L=2.5e-07 W=1.5e-06 AD=9.75e-13 AS=9.75e-13 PD=4.3e-06 PS=4.3e-06
+XMMn11 N_N_10_MMn11_d N_N_8_MMn11_g N_N_14_MMn11_s N_Gnd_MMn20_b NMOS25
++ L=2.5e-07 W=1.5e-06 AD=9.75e-13 AS=9.75e-13 PD=4.3e-06 PS=4.3e-06
+XMMn3 N_N_14_MMn3_d N_B_MMn3_g N_Gnd_MMn3_s N_Gnd_MMn20_b NMOS25 L=2.5e-07
++ W=1.5e-06 AD=9.75e-13 AS=9.75e-13 PD=4.3e-06 PS=4.3e-06
+XMMn4 N_N_13_MMn4_d N_N_8_MMn4_g N_Gnd_MMn4_s N_Gnd_MMn20_b NMOS25 L=2.5e-07
++ W=1.5e-06 AD=9.75e-13 AS=9.75e-13 PD=4.3e-06 PS=4.3e-06
+XMMn5 N_N_13_MMn5_d N_B_MMn5_g N_Gnd_MMn5_s N_Gnd_MMn20_b NMOS25 L=2.5e-07
++ W=1.5e-06 AD=9.75e-13 AS=9.75e-13 PD=4.3e-06 PS=4.3e-06
+XMMn6 N_N_13_MMn6_d N_Cin_MMn6_g N_Gnd_MMn6_s N_Gnd_MMn20_b NMOS25 L=2.5e-07
++ W=1.5e-06 AD=9.75e-13 AS=9.75e-13 PD=4.3e-06 PS=4.3e-06
+XMMn10 N_N_9_MMn10_d N_N_10_MMn10_g N_N_13_MMn10_s N_Gnd_MMn20_b NMOS25
++ L=2.5e-07 W=1.5e-06 AD=9.75e-13 AS=9.75e-13 PD=4.3e-06 PS=4.3e-06
+XMMn9 N_N_9_MMn9_d N_Cin_MMn9_g N_N_5_MMn9_s N_Gnd_MMn20_b NMOS25 L=2.5e-07
++ W=1.5e-06 AD=9.75e-13 AS=9.75e-13 PD=4.3e-06 PS=4.3e-06
+XMMn8 N_N_5_MMn8_d N_B_MMn8_g N_N_4_MMn8_s N_Gnd_MMn20_b NMOS25 L=2.5e-07
++ W=1.5e-06 AD=9.75e-13 AS=9.75e-13 PD=4.3e-06 PS=4.3e-06
+XMMn7 N_N_4_MMn7_d N_N_8_MMn7_g N_Gnd_MMn7_s N_Gnd_MMn20_b NMOS25 L=2.5e-07
++ W=1.5e-06 AD=9.75e-13 AS=9.75e-13 PD=4.3e-06 PS=4.3e-06
+XMMn13 N_Sum_MMn13_d N_N_9_MMn13_g N_Gnd_MMn13_s N_Gnd_MMn20_b NMOS25 L=2.5e-07
++ W=1.5e-06 AD=9.75e-13 AS=9.75e-13 PD=4.3e-06 PS=4.3e-06
+XMMn14 N_Cout_MMn14_d N_N_10_MMn14_g N_Gnd_MMn14_s N_Gnd_MMn20_b NMOS25
++ L=2.5e-07 W=1.5e-06 AD=9.75e-13 AS=9.75e-13 PD=4.3e-06 PS=4.3e-06
+XMMp20 N_N_12_MMp20_d N_Qin_MMp20_g N_Vdd_MMp20_s N_Vdd_MMp20_b PMOS25 L=2.5e-07
++ W=1.5e-06 AD=9.75e-13 AS=9.75e-13 PD=4.3e-06 PS=4.3e-06
+XMMp19 N_N_11_MMp19_d N_M_MMp19_g N_Vdd_MMp19_s N_Vdd_MMp19_b PMOS25 L=2.5e-07
++ W=1.5e-06 AD=9.75e-13 AS=9.75e-13 PD=4.3e-06 PS=4.3e-06
+XMMp16 N_N_17_MMp16_d N_N_11_MMp16_g N_Vdd_MMp16_s N_Vdd_MMp16_b PMOS25
++ L=2.5e-07 W=1.5e-06 AD=9.75e-13 AS=9.75e-13 PD=4.3e-06 PS=4.3e-06
+XMMp17 N_N_17_MMp17_d N_N_12_MMp17_g N_Vdd_MMp17_s N_Vdd_MMp17_b PMOS25
++ L=2.5e-07 W=1.5e-06 AD=9.75e-13 AS=9.75e-13 PD=4.3e-06 PS=4.3e-06
+XMMp15 N_N_8_MMp15_d N_M_MMp15_g N_N_17_MMp15_s N_Vdd_MMp15_b PMOS25 L=2.5e-07
++ W=1.5e-06 AD=9.75e-13 AS=9.75e-13 PD=4.3e-06 PS=4.3e-06
+XMMp18 N_N_8_MMp18_d N_Qin_MMp18_g N_N_17_MMp18_s N_Vdd_MMp18_b PMOS25 L=2.5e-07
++ W=1.5e-06 AD=9.75e-13 AS=9.75e-13 PD=4.3e-06 PS=4.3e-06
+XMMp12 N_N_7_MMp12_d N_N_8_MMp12_g N_Vdd_MMp12_s N_Vdd_MMp12_b PMOS25 L=2.5e-07
++ W=1.5e-06 AD=9.75e-13 AS=9.75e-13 PD=4.3e-06 PS=4.3e-06
+XMMp11 N_N_7_MMp11_d N_B_MMp11_g N_Vdd_MMp11_s N_Vdd_MMp11_b PMOS25 L=2.5e-07
++ W=1.5e-06 AD=9.75e-13 AS=9.75e-13 PD=4.3e-06 PS=4.3e-06
+XMMp1 N_N_10_MMp1_d N_Cin_MMp1_g N_N_7_MMp1_s N_Vdd_MMp1_b PMOS25 L=2.5e-07
++ W=1.5e-06 AD=9.75e-13 AS=9.75e-13 PD=4.3e-06 PS=4.3e-06
+XMMp2 N_N_10_MMp2_d N_N_8_MMp2_g N_N_6_MMp2_s N_Vdd_MMp2_b PMOS25 L=2.5e-07
++ W=1.5e-06 AD=9.75e-13 AS=9.75e-13 PD=4.3e-06 PS=4.3e-06
+XMMp10 N_N_6_MMp10_d N_B_MMp10_g N_Vdd_MMp10_s N_Vdd_MMp10_b PMOS25 L=2.5e-07
++ W=1.5e-06 AD=9.75e-13 AS=9.75e-13 PD=4.3e-06 PS=4.3e-06
+XMMp9 N_N_1_MMp9_d N_N_8_MMp9_g N_Vdd_MMp9_s N_Vdd_MMp9_b PMOS25 L=2.5e-07
++ W=1.5e-06 AD=9.75e-13 AS=9.75e-13 PD=4.3e-06 PS=4.3e-06
+XMMp8 N_N_1_MMp8_d N_B_MMp8_g N_Vdd_MMp8_s N_Vdd_MMp8_b PMOS25 L=2.5e-07
++ W=1.5e-06 AD=9.75e-13 AS=9.75e-13 PD=4.3e-06 PS=4.3e-06
+XMMp7 N_N_1_MMp7_d N_Cin_MMp7_g N_Vdd_MMp7_s N_Vdd_MMp7_b PMOS25 L=2.5e-07
++ W=1.5e-06 AD=9.75e-13 AS=9.75e-13 PD=4.3e-06 PS=4.3e-06
+XMMp3 N_N_9_MMp3_d N_N_10_MMp3_g N_N_1_MMp3_s N_Vdd_MMp3_b PMOS25 L=2.5e-07
++ W=1.5e-06 AD=9.75e-13 AS=9.75e-13 PD=4.3e-06 PS=4.3e-06
+XMMp4 N_N_9_MMp4_d N_Cin_MMp4_g N_N_2_MMp4_s N_Vdd_MMp4_b PMOS25 L=2.5e-07
++ W=1.5e-06 AD=9.75e-13 AS=9.75e-13 PD=4.3e-06 PS=4.3e-06
+XMMp5 N_N_2_MMp5_d N_B_MMp5_g N_N_3_MMp5_s N_Vdd_MMp5_b PMOS25 L=2.5e-07
++ W=1.5e-06 AD=9.75e-13 AS=9.75e-13 PD=4.3e-06 PS=4.3e-06
+XMMp6 N_N_3_MMp6_d N_N_8_MMp6_g N_Vdd_MMp6_s N_Vdd_MMp6_b PMOS25 L=2.5e-07
++ W=1.5e-06 AD=9.75e-13 AS=9.75e-13 PD=4.3e-06 PS=4.3e-06
+XMMp13 N_Sum_MMp13_d N_N_9_MMp13_g N_Vdd_MMp13_s N_Vdd_MMp13_b PMOS25 L=2.5e-07
++ W=1.5e-06 AD=9.75e-13 AS=9.75e-13 PD=4.3e-06 PS=4.3e-06
+XMMp14 N_Cout_MMp14_d N_N_10_MMp14_g N_Vdd_MMp14_s N_Vdd_MMp14_b PMOS25
++ L=2.5e-07 W=1.5e-06 AD=9.75e-13 AS=9.75e-13 PD=4.3e-06 PS=4.3e-06
+*
+.include "Lab3_CAS.pex.netlist.Lab3_CAS.pxi"
+*
+.ends
+*
+*

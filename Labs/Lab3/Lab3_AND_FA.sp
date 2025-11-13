@@ -1,0 +1,51 @@
+* SPICE NETLIST
+***************************************
+
+.SUBCKT nmos25_Auto_2_1 S D B G
+** N=4 EP=4 IP=0 FDC=1
+M0 D G S B NMOS25 L=2.5e-07 W=1.5e-06 $X=0 $Y=0 $D=1
+.ENDS
+***************************************
+.SUBCKT pmos25_Auto_3_1 B S D G
+** N=5 EP=4 IP=0 FDC=1
+M0 D G S B PMOS25 L=2.5e-07 W=1.5e-06 $X=0 $Y=0 $D=2
+.ENDS
+***************************************
+.SUBCKT Lab3_AND_FA Gnd X Y A Cin Vdd Sum Cout
+** N=23 EP=8 IP=153 FDC=34
+X0 Gnd 4 Gnd X nmos25_Auto_2_1 $T=-8540 6260 0 0 $X=-10490 $Y=5960
+X1 4 5 Gnd Y nmos25_Auto_2_1 $T=-1940 6260 0 0 $X=-3890 $Y=5960
+X2 Gnd 6 Gnd 5 nmos25_Auto_2_1 $T=4660 6260 0 0 $X=2710 $Y=5960
+X3 Gnd 9 Gnd A nmos25_Auto_2_1 $T=13415 6260 0 0 $X=11465 $Y=5960
+X4 Gnd 9 Gnd 6 nmos25_Auto_2_1 $T=20015 6260 0 0 $X=18065 $Y=5960
+X5 9 11 Gnd Cin nmos25_Auto_2_1 $T=26615 6260 0 0 $X=24665 $Y=5960
+X6 12 11 Gnd A nmos25_Auto_2_1 $T=32415 7760 0 180 $X=31265 $Y=5960
+X7 Gnd 12 Gnd 6 nmos25_Auto_2_1 $T=39815 6260 0 0 $X=37865 $Y=5960
+X8 Gnd 14 Gnd A nmos25_Auto_2_1 $T=46415 6260 0 0 $X=44465 $Y=5960
+X9 Gnd 14 Gnd 6 nmos25_Auto_2_1 $T=53015 6260 0 0 $X=51065 $Y=5960
+X10 Gnd 14 Gnd Cin nmos25_Auto_2_1 $T=59615 6260 0 0 $X=57665 $Y=5960
+X11 14 16 Gnd 11 nmos25_Auto_2_1 $T=66215 6260 0 0 $X=64265 $Y=5960
+X12 17 16 Gnd Cin nmos25_Auto_2_1 $T=72015 7760 0 180 $X=70865 $Y=5960
+X13 19 17 Gnd 6 nmos25_Auto_2_1 $T=78615 7760 0 180 $X=77465 $Y=5960
+X14 Gnd 19 Gnd A nmos25_Auto_2_1 $T=85215 7760 0 180 $X=84065 $Y=5960
+X15 Gnd Sum Gnd 16 nmos25_Auto_2_1 $T=92865 6260 0 0 $X=90915 $Y=5960
+X16 Gnd Cout Gnd 11 nmos25_Auto_2_1 $T=100565 6260 0 0 $X=98615 $Y=5960
+X17 Vdd Vdd 5 X pmos25_Auto_3_1 $T=-8540 14010 0 0 $X=-10990 $Y=13260
+X18 Vdd Vdd 5 Y pmos25_Auto_3_1 $T=-2740 14010 1 180 $X=-4390 $Y=13260
+X19 Vdd Vdd 6 5 pmos25_Auto_3_1 $T=4660 14010 0 0 $X=2210 $Y=13260
+X20 Vdd Vdd 10 A pmos25_Auto_3_1 $T=13415 14010 0 0 $X=10965 $Y=13260
+X21 Vdd Vdd 10 6 pmos25_Auto_3_1 $T=20015 14010 0 0 $X=17565 $Y=13260
+X22 Vdd 10 11 Cin pmos25_Auto_3_1 $T=26615 14010 0 0 $X=24165 $Y=13260
+X23 Vdd 13 11 A pmos25_Auto_3_1 $T=32415 15510 0 180 $X=30765 $Y=13260
+X24 Vdd Vdd 13 6 pmos25_Auto_3_1 $T=39815 14010 0 0 $X=37365 $Y=13260
+X25 Vdd Vdd 15 A pmos25_Auto_3_1 $T=46415 14010 0 0 $X=43965 $Y=13260
+X26 Vdd Vdd 15 6 pmos25_Auto_3_1 $T=53015 14010 0 0 $X=50565 $Y=13260
+X27 Vdd Vdd 15 Cin pmos25_Auto_3_1 $T=59615 14010 0 0 $X=57165 $Y=13260
+X28 Vdd 15 16 11 pmos25_Auto_3_1 $T=66215 14010 0 0 $X=63765 $Y=13260
+X29 Vdd 18 16 Cin pmos25_Auto_3_1 $T=72015 15510 0 180 $X=70365 $Y=13260
+X30 Vdd 20 18 6 pmos25_Auto_3_1 $T=78615 15510 0 180 $X=76965 $Y=13260
+X31 Vdd Vdd 20 A pmos25_Auto_3_1 $T=85215 15510 0 180 $X=83565 $Y=13260
+X32 Vdd Vdd Sum 16 pmos25_Auto_3_1 $T=92865 14010 0 0 $X=90415 $Y=13260
+X33 Vdd Vdd Cout 11 pmos25_Auto_3_1 $T=100565 14010 0 0 $X=98115 $Y=13260
+.ENDS
+***************************************

@@ -1,0 +1,246 @@
+
+
+
+                  ##################################################
+                  ##                                              ##
+                  ##         C A L I B R E    S Y S T E M         ##
+                  ##                                              ##
+                  ##             L V S   R E P O R T              ##
+                  ##                                              ##
+                  ##################################################
+
+
+
+REPORT FILE NAME:         Lab3_AND_FA.lvs.report
+LAYOUT NAME:              Lab3_AND_FA.sp ('Lab3_AND_FA')
+SOURCE NAME:              Lab3_AND_FA.src.net ('Lab3_AND_FA')
+RULE FILE:                ____Generic_250nm_LVS.cal____
+CREATION TIME:            Tue Nov 11 12:37:52 2025
+CURRENT DIRECTORY:        /home/eky9/Documents/runset_files
+USER NAME:                eky9
+CALIBRE VERSION:          v2022.4_37.20    Fri Dec 2 17:43:09 PST 2022
+
+
+
+                               OVERALL COMPARISON RESULTS
+
+
+
+                         #       ###################       _   _   
+                        #        #                 #       *   *   
+                   #   #         #     CORRECT     #         |     
+                    # #          #                 #       \___/  
+                     #           ###################               
+
+
+
+
+**************************************************************************************************************
+                                      CELL  SUMMARY
+**************************************************************************************************************
+
+  Result         Layout                        Source
+  -----------    -----------                   --------------
+  CORRECT        Lab3_AND_FA                   Lab3_AND_FA
+
+
+
+**************************************************************************************************************
+                                      LVS PARAMETERS
+**************************************************************************************************************
+
+
+o LVS Setup:
+
+   // LVS COMPONENT TYPE PROPERTY
+   // LVS COMPONENT SUBTYPE PROPERTY
+   // LVS PIN NAME PROPERTY
+   // LVS POWER NAME
+   // LVS GROUND NAME
+   LVS CELL SUPPLY                        NO
+   LVS RECOGNIZE GATES                    ALL
+   // LVS HCELL REPORT
+   LVS IGNORE PORTS                       NO
+   LVS CHECK PORT NAMES                   NO
+   LVS IGNORE TRIVIAL NAMED PORTS         NO
+   LVS BUILTIN DEVICE PIN SWAP            YES
+   LVS ALL CAPACITOR PINS SWAPPABLE       NO
+   LVS DISCARD PINS BY DEVICE             NO
+   LVS SOFT SUBSTRATE PINS                NO
+   LVS INJECT LOGIC                       YES
+   LVS EXPAND UNBALANCED CELLS            YES
+   LVS FLATTEN INSIDE CELL                NO
+   LVS EXPAND SEED PROMOTIONS             NO
+   LVS PRESERVE PARAMETERIZED CELLS       NO
+   LVS GLOBALS ARE PORTS                  YES
+   LVS RELAX INITIAL CPOINTS              NONE
+   LVS REVERSE WL                         NO
+   // LVS NETLIST FILTER DEVICES          NO
+   // LVS PRESERVE BOX PORTS              NO
+   LVS SPICE PREFER PINS                  NO
+   LVS SPICE SLASH IS SPACE               YES
+   LVS SPICE ALLOW FLOATING PINS          YES
+   // LVS SPICE ALLOW INLINE PARAMETERS     
+   LVS SPICE ALLOW UNQUOTED STRINGS       NO
+   LVS SPICE CONDITIONAL LDD              NO
+   LVS SPICE CULL PRIMITIVE SUBCIRCUITS   NO
+   // LVS SPICE EXCLUDE CELL SOURCE
+   // LVS SPICE EXCLUDE CELL LAYOUT
+   LVS SPICE IMPLIED MOS AREA             NO
+   // LVS SPICE MULTIPLIER NAME
+   LVS SPICE OVERRIDE GLOBALS             NO
+   LVS SPICE REDEFINE PARAM               NO
+   LVS SPICE REPLICATE DEVICES            NO
+   LVS SPICE SCALE X PARAMETERS           NO
+   LVS SPICE STRICT WL                    NO
+   // LVS SPICE OPTION
+   LVS STRICT SUBTYPES                    NO
+   LVS EXACT SUBTYPES                     NO
+   LAYOUT CASE                            YES
+   SOURCE CASE                            YES
+   LVS COMPARE CASE                       NO
+   LVS COMPARE CASE STRICT                NO
+   LVS DOWNCASE DEVICE                    NO
+   LVS REPORT MAXIMUM                     50
+   LVS PROPERTY RESOLUTION MAXIMUM        32
+   // LVS SIGNATURE MAXIMUM
+   // LVS FILTER UNUSED OPTION
+   // LVS REPORT OPTION
+   LVS REPORT UNITS                       YES
+   LVS SWAPPABLE HCELL PINS               GENERAL
+   // LVS NON USER NAME PORT
+   // LVS NON USER NAME NET
+   // LVS NON USER NAME INSTANCE
+   // LVS IGNORE DEVICE PIN
+   // LVS PREFER NETS FILTER SOURCE
+   // LVS PREFER NETS FILTER LAYOUT
+   LVS PREFER PORT NETS                   NO
+   LVS EXPAND ON ERROR                    NO
+   LVS EXPAND AMBIGUOUSLY HIGH SHORTED HCELLS NO
+
+   // Reduction
+
+   LVS REDUCE SERIES MOS                  NO
+   LVS REDUCE PARALLEL MOS                YES
+   LVS REDUCE SEMI SERIES MOS             NO
+   LVS REDUCE SPLIT GATES                 YES
+   LVS REDUCE PARALLEL BIPOLAR            YES
+   LVS REDUCE SERIES CAPACITORS           YES
+   LVS REDUCE PARALLEL CAPACITORS         YES
+   LVS REDUCE SERIES RESISTORS            YES
+   LVS REDUCE PARALLEL RESISTORS          YES
+   LVS REDUCE PARALLEL DIODES             YES
+   LVS REDUCTION PRIORITY                 PARALLEL
+   
+   LVS SHORT EQUIVALENT NODES             NO
+
+   // Trace Property
+
+   TRACE PROPERTY  mn  l l 0
+   TRACE PROPERTY  mn  w w 0
+   TRACE PROPERTY  mp  l l 0
+   TRACE PROPERTY  mp  w w 0
+   TRACE PROPERTY  m  l l 0
+   TRACE PROPERTY  m  w w 0
+   TRACE PROPERTY  c  l l 0.5
+   TRACE PROPERTY  c  w w 0.5
+   TRACE PROPERTY  c  c c 0.5
+   TRACE PROPERTY  r  l l 0.5
+   TRACE PROPERTY  r  w w 0.5
+   TRACE PROPERTY  r  r r 0.5
+
+
+
+                   CELL COMPARISON RESULTS ( TOP LEVEL )
+
+
+
+                         #       ###################       _   _   
+                        #        #                 #       *   *   
+                   #   #         #     CORRECT     #         |     
+                    # #          #                 #       \___/  
+                     #           ###################               
+
+
+
+LAYOUT CELL NAME:         Lab3_AND_FA
+SOURCE CELL NAME:         Lab3_AND_FA
+
+--------------------------------------------------------------------------------------------------------------
+
+INITIAL NUMBERS OF OBJECTS
+--------------------------
+
+                Layout    Source         Component Type
+                ------    ------         --------------
+ Ports:              8         8
+
+ Nets:              23        23
+
+ Instances:         17        17         MN (4 pins)
+                    17        17         MP (4 pins)
+                ------    ------
+ Total Inst:        34        34
+
+
+NUMBERS OF OBJECTS AFTER TRANSFORMATION
+---------------------------------------
+
+                Layout    Source         Component Type
+                ------    ------         --------------
+ Ports:              8         8
+
+ Nets:              12        12
+
+ Instances:          1         1         SPMN_2_1 (5 pins)
+                     1         1         SPMN_3_1 (6 pins)
+                     1         1         SPMP_2_1 (5 pins)
+                     1         1         SPMP_3_1 (6 pins)
+                     3         3         _invv (4 pins)
+                     1         1         _nand2v (5 pins)
+                     1         1         _smn2v (4 pins)
+                     1         1         _smn3v (5 pins)
+                     1         1         _smp2v (4 pins)
+                     1         1         _smp3v (5 pins)
+                ------    ------
+ Total Inst:        12        12
+
+
+
+**************************************************************************************************************
+                               INFORMATION AND WARNINGS
+**************************************************************************************************************
+
+
+                  Matched    Matched    Unmatched    Unmatched    Component
+                   Layout     Source       Layout       Source    Type
+                  -------    -------    ---------    ---------    ---------
+   Ports:               8          8            0            0
+
+   Nets:               12         12            0            0
+
+   Instances:           1          1            0            0    SPMN_2_1
+                        1          1            0            0    SPMN_3_1
+                        1          1            0            0    SPMP_2_1
+                        1          1            0            0    SPMP_3_1
+                        3          3            0            0    _invv
+                        1          1            0            0    _nand2v
+                        1          1            0            0    _smn2v
+                        1          1            0            0    _smn3v
+                        1          1            0            0    _smp2v
+                        1          1            0            0    _smp3v
+                  -------    -------    ---------    ---------
+   Total Inst:         12         12            0            0
+
+
+o Initial Correspondence Points:
+
+   Ports:        Gnd X Y A Cin Vdd Sum Cout
+
+
+**************************************************************************************************************
+                                         SUMMARY
+**************************************************************************************************************
+
+Total CPU Time:      0 sec
+Total Elapsed Time:  0 sec
