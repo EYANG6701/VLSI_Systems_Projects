@@ -57,3 +57,7 @@ Here, I perform layout for the FA+AND transistor schematic
 <p align="center">
     <img src="./Layout Screenshots/Lab3_AND_FA_layout.png" />
 </p>
+
+## Best and Worst Rise and Fall Times from Inputs to Outputs
+### CAS Cell Timing Analysis
+
