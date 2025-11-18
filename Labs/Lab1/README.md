@@ -19,3 +19,14 @@ Below are two simulation waveforms that verify the correctness of the circuit.
     <img src="./PEX Simulations/lab1_perfect_alternate.png" />
 </p>
 
+These waveforms show that the inverter is working as intended, since the output is always opposite of the input 
+
+## Inverter L-Edit Layout
+
+Here is the layout of the inverter. Since I am only making a single inverter, I placed the Vdd and Gnd ports directly on the bulk and source, instead of making rails that run along the top and bottom of the design.
+
+<p align="center">
+    <img src="./lab1redolayout.png" />
+</p>
+
+
