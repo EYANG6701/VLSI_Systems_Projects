@@ -54,3 +54,6 @@ Here, I perform layout for the CAS transistor schematic
 ### FA+AND Cell
 
 Here, I perform layout for the FA+AND transistor schematic
+<p align="center">
+    <img src="./Layout Screenshots/Lab3_AND_FA_layout.png" />
+</p>
