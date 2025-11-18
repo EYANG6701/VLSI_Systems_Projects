@@ -33,8 +33,8 @@ Here is the layout of the inverter. Since I am only making a single inverter, I 
 
 After completing the layout, I ran Calibre DRC, LVS, and PEX to verify the physical design. DRC is used to ensure the design follows manufacturing process rules, LVS is used to ensure that the layout matches the schematic, and PEX is used to extract parasitic capacitances, which I will use later on.
 
-[DRC Summary](lab1_redo.drc.summary)
-[LVS Report](lab1_redo.lvs.report)
-[PEX netlist](lab1_redo.pex.netlist.lab1_redo.pxi)
+* [DRC Summary](lab1_redo.drc.summary)
+* [LVS Report](lab1_redo.lvs.report)
+* [PEX netlist](lab1_redo.pex.netlist.lab1_redo.pxi)
 
 
