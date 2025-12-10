@@ -58,6 +58,16 @@ Here, I perform layout for the FA+AND transistor schematic
     <img src="./Layout Screenshots/Lab3_AND_FA_layout.png" />
 </p>
 
-## Best and Worst Rise and Fall Times from Inputs to Outputs
-### CAS Cell Timing Analysis
+## Calibre Reports
+### CAS DRC, LVS, and PEX
+
+* [DRC Summary](Lab3_CAS.drc.summary)
+* [LVS Report](Lab_CAS.lvs.report)
+* [PEX Netlist](Lab3_CAS.pex.netlist)
+
+### AND+FA DRC, LVS, PEX
+
+* [DRC Summary](Lab3_AND_FA.drc.summary)
+* [LVS Report](Lab3_AND_FA.lvs.report)
+* [PEX Netlist](Lab3_AND_FA.pex.netlist)
 
