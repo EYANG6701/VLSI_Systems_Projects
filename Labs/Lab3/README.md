@@ -65,9 +65,16 @@ Here, I perform layout for the FA+AND transistor schematic
 * [LVS Report](Lab_CAS.lvs.report)
 * [PEX Netlist](Lab3_CAS.pex.netlist)
 
-### AND+FA DRC, LVS, PEX
+### FA+AND DRC, LVS, PEX
 
 * [DRC Summary](Lab3_AND_FA.drc.summary)
 * [LVS Report](Lab3_AND_FA.lvs.report)
 * [PEX Netlist](Lab3_AND_FA.pex.netlist)
 
+## Four Bit Divider
+
+In S-Edit, I first created symbols for the CAS and FA+AND Cell, and then used those symbols to create the four bit divider shown in the first figure above.
+
+<p align="center">
+    <img src="./Schematic screenshots/lab3_four_bit_divider.png" />
+</p>
