@@ -78,3 +78,12 @@ In S-Edit, I first created symbols for the CAS and FA+AND Cell, and then used th
 <p align="center">
     <img src="./Schematic screenshots/lab3_four_bit_divider.png" />
 </p>
+
+### Simulation Waveform
+
+The following waveform shows an examples using the S-Edit divider. I start with D = 0001 and M = 0001, which is just 1 divided by 1, and resulting waveform shows Q = 0001 and R = 0000, which is correct. I then switch the signals to test D = 1100 and M = 0101, which is 12 divided by 5. The resulting waveform shows Q = 0100 and R = 0100, which is also correct.
+
+<p align="center">
+    <img src="./Waveform Screenshots/Lab3_better_divider_waveform.png" />
+</p>
+
