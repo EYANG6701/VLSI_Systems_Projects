@@ -18,3 +18,5 @@ This is the S-Edit schematic of the register cell. I did not include any voltage
 
 * [Register Cell T-Spice File](lab2_redo.sp)
 
+## Test waveforms
+
