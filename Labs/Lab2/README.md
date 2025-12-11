@@ -20,3 +20,33 @@ This is the S-Edit schematic of the register cell. I did not include any voltage
 
 ## Test waveforms
 
+These are some waveforms to show that the register cell works as intended
+
+<p align="center">
+    <img src="./Initial_Waveforms/lab2_a_and_b_alternate.png" />
+</p>
+
+<p align="center">
+    <img src="./Initial_Waveforms/lab2_both_OFF.png" />
+</p>
+
+<p align="center">
+    <img src="./Initial_Waveforms/lab2_only_a.png" />
+</p>
+
+<p align="center">
+    <img src="./Initial_Waveforms/lab2_only_b.png" />
+</p>
+
+<p align="center">
+    <img src="./Initial_Waveforms/lab2_read_a_and_b.png" />
+</p>
+
+<p align="center">
+    <img src="./Initial_Waveforms/lab2_waveform.png" />
+</p>
+
+<p align="center">
+    <img src="./Initial_Waveforms/lab2_waveform1.png" />
+</p>
+
